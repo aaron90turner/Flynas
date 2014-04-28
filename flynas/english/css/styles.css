@@ -1,0 +1,112 @@
+body{
+
+	margin.body: 80px;
+}
+
+.page-header {
+	margin-top: 0;
+
+
+}
+
+.panel-body {
+	padding-top: 0;
+
+}
+
+.featuredImg {
+	margin-bottom: 15px;
+}
+
+.normal {
+font-style:gotham;
+color: #01b0ab;
+}
+.navbar-inverse {
+background: #01b0ab;
+border-color: none;
+
+}
+p.white {
+font-style:gotham;
+color: #FFFFFF;
+}
+
+.wrap {
+	  /* force the div to properly contain the floated images: */
+	  position:relative;
+	  float:left;
+	  
+	  overflow:hidden;
+	}
+	
+	.wrap .desc {
+	position:absolute; /* absolute position (so we can position it where we want)*/  
+      bottom:14px; /* position will be on bottom */  
+     left:0px;
+	  display:block;
+	  width:100%;  
+    /* styling bellow */  
+    background-color:#01b0ab;  
+    font-family: 'tahoma';  
+    font-size:18px;  
+    color:white;  
+    opacity:0.8; /* transparency */  
+	  padding:10px;  
+       margin:0px; 
+	}
+
+	.wrap .green {
+	position:absolute; /* absolute position (so we can position it where we want)*/  
+      bottom:14px; /* position will be on bottom */  
+     left:0px;
+	  display:block;
+	  width:100%;  
+    /* styling bellow */  
+    background-color:#97C524;  
+    font-family: 'tahoma';  
+    font-size:18px;  
+    color:white;  
+    opacity:0.9; /* transparency */  
+	  padding:10px;  
+       margin:0px; 
+	}
+	
+	.wrap .main {
+	position:absolute; /* absolute position (so we can position it where we want)*/  
+      bottom:0px; /* position will be on bottom */  
+     left:0px;
+	  display:block;
+	  width:100%;  
+    /* styling bellow */  
+    background-color:#01b0ab;  
+    font-family: 'tahoma';  
+    font-size:18px;  
+    color:white;  
+    opacity:0.8; /* transparency */  
+	  padding:10px;  
+       margin:0px; 
+	}
+
+	.wrap .info {
+	 position:absolute; /* absolute position (so we can position it where we want)*/  
+      bottom:0px; /* position will be on bottom */  
+     left:0px;
+	  display:block;
+	  width:100%;  
+    /* styling bellow */  
+    background-color:#01b0ab;  
+    font-family: 'tahoma';  
+    font-size:18px;  
+    color:white;  
+    opacity:0.8; /* transparency */  
+	  padding:10px;  
+       margin:0px; 
+	}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+	
+
+
